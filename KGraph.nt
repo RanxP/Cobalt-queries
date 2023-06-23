@@ -1,0 +1,2823 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://Quarry.org/> .
+@prefix ns2: <http://miniral_resources.org/> .
+@prefix ns3: <http://Transport.org/Railroad/> .
+@prefix ns4: <http://Transport.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<AK00012> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "67.063593"^^xsd:float ;
+    ns1:Longitude "-156.944535"^^xsd:float ;
+    ns1:State <Alaska> ;
+    ns4:Freight "Not feasible"^^xsd:ENTITY ;
+    ns2:Minerals [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.95"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "84100000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Trilogy Metals Inc. (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 2, Table 2"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "2.89"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-57800000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Trilogy Metals Inc. (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 2, Table 2"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "3.04"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "21230000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1961"^^xsd:date ;
+                    ns2:Reaserchers "Davis and Sim (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 6-5, Table 6.2"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "1.02"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "40500000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Trilogy Metals Inc. (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 2, Table 2"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.017"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "124600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Trilogy Metals Inc. (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 2, Table 1"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.025"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-57800000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Trilogy Metals Inc. (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 2, Table 1"^^xsd:str ] ] ;
+    foaf:givenName "Bornite Project" .
+
+<AK00017> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "67.137811"^^xsd:float ;
+    ns1:Longitude "-156.150351"^^xsd:float ;
+    ns1:State <Alaska> ;
+    ns4:Freight "Not feasible"^^xsd:ENTITY ;
+    foaf:givenName "Ambler District" .
+
+<AK00205> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "57.98"^^xsd:float ;
+    ns1:Longitude "-136.428"^^xsd:float ;
+    ns1:State <Alaska> ;
+    ns4:Freight "Sea"^^xsd:ENTITY ;
+    ns2:Minerals [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.27"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-20000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1990"^^xsd:date ;
+                    ns2:Reaserchers "Bundtzen and others (1995)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 61"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.3"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1386000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.39"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-110000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.35"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-110000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.31"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2317000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.25"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-766000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.29"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-91000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.21"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-166000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.26"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-166000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.44"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-109000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.32"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-91000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.02"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-20000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1990"^^xsd:date ;
+                    ns2:Reaserchers "Bundtzen and others (1995)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 61"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.25"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2317000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.26"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-908000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.52"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1386000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.23"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-766000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.32"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-908000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.51"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-20000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1990"^^xsd:date ;
+                    ns2:Reaserchers "Bundtzen and others (1995)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 61"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.33"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-109000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1942"^^xsd:date ;
+                    ns2:Reaserchers "Reed and Dorr (1942)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 129"^^xsd:str ] ] ;
+    foaf:givenName "Bohemia Basin" .
+
+<AK00206> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "57.614"^^xsd:float ;
+    ns1:Longitude "-135.199"^^xsd:float ;
+    ns1:State <Alaska> ;
+    ns4:Freight "Sea"^^xsd:ENTITY ;
+    foaf:givenName "Chichagof District" .
+
+<AK00207> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "58.552"^^xsd:float ;
+    ns1:Longitude "-136.932"^^xsd:float ;
+    ns1:State <Alaska> ;
+    ns4:Freight "Sea"^^xsd:ENTITY ;
+    ns2:Minerals [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.03"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-91000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1995"^^xsd:date ;
+                    ns2:Reaserchers "Bundtzen and others (1995)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 60"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.3"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-91000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1995"^^xsd:date ;
+                    ns2:Reaserchers "Bundtzen and others (1995)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 60"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.5"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-91000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1995"^^xsd:date ;
+                    ns2:Reaserchers "Bundtzen and others (1995)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 60"^^xsd:str ] ] ;
+    foaf:givenName "Brady Glacier" .
+
+<Alabama> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "4"^^xsd:positiveInteger ;
+            ns3:Linehaul "15"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "4"^^xsd:positiveInteger ;
+            ns3:Total "24"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.3"^^xsd:float .
+
+<Arizona> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "5"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "3"^^xsd:positiveInteger ;
+            ns3:Total "10"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.5"^^xsd:float .
+
+<Arkansas> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "3"^^xsd:positiveInteger ;
+            ns3:Linehaul "17"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "5"^^xsd:positiveInteger ;
+            ns3:Total "25"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.0"^^xsd:float .
+
+<CA00070> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "41.991"^^xsd:float ;
+    ns1:Longitude "-123.994"^^xsd:float ;
+    ns1:State <California> ;
+    ns4:Freight "Sea"^^xsd:ENTITY ;
+    ns2:Minerals [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.78"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-19232000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1986"^^xsd:date ;
+                    ns2:Reaserchers "Northern Miner (1989)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 103"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.062"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-19232000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1986"^^xsd:date ;
+                    ns2:Reaserchers "Northern Miner (1989)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 103"^^xsd:str ] ] ;
+    foaf:givenName "Pine Flat" .
+
+<CA00071> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "41.869"^^xsd:float ;
+    ns1:Longitude "-123.996"^^xsd:float ;
+    ns1:State <California> ;
+    ns4:Freight "Sea"^^xsd:ENTITY ;
+    ns2:Minerals [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.75"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-16000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1985"^^xsd:date ;
+                    ns2:Reaserchers "US OTA (1985)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 171"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.07"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-16000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1985"^^xsd:date ;
+                    ns2:Reaserchers "US OTA (1985)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 171"^^xsd:str ] ],
+        [ a "chromium"^^xsd:Name ;
+            ns2:Grade "2.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-16000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1985"^^xsd:date ;
+                    ns2:Reaserchers "US OTA (1985)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 171"^^xsd:str ] ] ;
+    foaf:givenName "Gasquet" .
+
+<Colorado> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "7"^^xsd:positiveInteger ;
+            ns3:Regional "3"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "3"^^xsd:positiveInteger ;
+            ns3:Total "15"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.8"^^xsd:float .
+
+<Connecticut> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "1"^^xsd:positiveInteger ;
+            ns3:Linehaul "4"^^xsd:positiveInteger ;
+            ns3:Regional "3"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "0"^^xsd:positiveInteger ;
+            ns3:Total "8"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "4.0"^^xsd:float .
+
+<Delaware> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "1"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "3"^^xsd:positiveInteger ;
+            ns3:Total "6"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "4.4"^^xsd:float .
+
+<District_of_Columbia> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "0"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "1"^^xsd:positiveInteger ;
+            ns3:Total "3"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "4.8"^^xsd:float .
+
+<Florida> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "9"^^xsd:positiveInteger ;
+            ns3:Regional "2"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "1"^^xsd:positiveInteger ;
+            ns3:Total "14"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.6"^^xsd:float .
+
+<Georgia> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "20"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "1"^^xsd:positiveInteger ;
+            ns3:Total "23"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.1"^^xsd:float .
+
+<Hawaii> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "0"^^xsd:positiveInteger ;
+            ns3:Linehaul "0"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "0"^^xsd:positiveInteger ;
+            ns3:Total "0"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.5"^^xsd:float .
+
+<ID00005> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "45.117"^^xsd:float ;
+    ns1:Longitude "-114.343"^^xsd:float ;
+    ns1:State <Idaho> ;
+    ns4:Freight "Not feasible"^^xsd:ENTITY ;
+    ns2:Minerals [ a "copper"^^xsd:Name ;
+            ns2:Grade "1.31"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-6500000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1977"^^xsd:date ;
+                    ns2:Reaserchers "Johnson and others (1998)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 190"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.55"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-6500000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1977"^^xsd:date ;
+                    ns2:Reaserchers "Johnson and others (1998)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 190"^^xsd:str ] ] ;
+    foaf:givenName "Blackbird" .
+
+<ID00050> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "45.139"^^xsd:float ;
+    ns1:Longitude "-114.362"^^xsd:float ;
+    ns1:State <Idaho> ;
+    ns4:Freight "Not feasible"^^xsd:ENTITY ;
+    ns2:Minerals [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.47"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3662000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 127, Table 15.2"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.657"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1116941"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1998"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 38, Table 6.1"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.013"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-260700"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2006"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 40, Table 6.4"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.016"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3436000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 121, Table 14.11"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.68"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3662000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 127, Table 15.2"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.015"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3662000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 127, Table 15.2"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.604"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-260700"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2006"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 40, Table 6.4"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.51"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1543000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 121, Table 14.11"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.618"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2250400"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1998"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 38, Table 6.1"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.73"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3436000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 121, Table 14.11"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.59"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3436000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 121, Table 14.11"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.68"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1543000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 121, Table 14.11"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.012"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1543000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 121, Table 14.11"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.014"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2250400"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1998"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 38, Table 6.1"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.592"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1116941"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1998"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 38, Table 6.1"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.327"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-260700"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2006"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 40, Table 6.4"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.459"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2250400"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1998"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 38, Table 6.1"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.016"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1116941"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1998"^^xsd:date ;
+                    ns2:Reaserchers "Foo and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 38, Table 6.1"^^xsd:str ] ] ;
+    foaf:givenName "Idaho Cobalt Project" .
+
+<ID00051> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "44.96"^^xsd:float ;
+    ns1:Longitude "-114.118"^^xsd:float ;
+    ns1:State <Idaho> ;
+    ns4:Freight "Not feasible"^^xsd:ENTITY ;
+    ns2:Minerals [ a "copper"^^xsd:Name ;
+            ns2:Grade "1.05"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-32100000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1972"^^xsd:date ;
+                    ns2:Reaserchers "Cullen (2016)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 16, Table 2"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.17"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-32100000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1972"^^xsd:date ;
+                    ns2:Reaserchers "Cullen (2016)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 16, Table 2"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.3"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1983"^^xsd:date ;
+                    ns2:Reaserchers "Cullen (2016)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 16, Table 2"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.61"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1983"^^xsd:date ;
+                    ns2:Reaserchers "Cullen (2016)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 16, Table 2"^^xsd:str ] ] ;
+    foaf:givenName "Iron Creek" .
+
+<ID00052> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "45.3"^^xsd:float ;
+    ns1:Longitude "-114.558"^^xsd:float ;
+    ns1:State <Idaho> ;
+    ns4:Freight "Not feasible"^^xsd:ENTITY ;
+    ns2:Minerals [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.015"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1270000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1979"^^xsd:date ;
+                    ns2:Reaserchers "Johnson and others (1998)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 121"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "1.3"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1270000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1979"^^xsd:date ;
+                    ns2:Reaserchers "Johnson and others (1998)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 121"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "0.3"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1270000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1979"^^xsd:date ;
+                    ns2:Reaserchers "Johnson and others (1998)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 121"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.2"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1270000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1979"^^xsd:date ;
+                    ns2:Reaserchers "Johnson and others (1998)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 121"^^xsd:str ] ] ;
+    foaf:givenName "Salmon Canyon" .
+
+<ID00054> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "45.107"^^xsd:float ;
+    ns1:Longitude "-114.308"^^xsd:float ;
+    ns1:State <Idaho> ;
+    ns4:Freight "Not feasible"^^xsd:ENTITY ;
+    foaf:givenName "Blackbird District" .
+
+<Illinois> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "7"^^xsd:positiveInteger ;
+            ns3:Linehaul "13"^^xsd:positiveInteger ;
+            ns3:Regional "3"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "18"^^xsd:positiveInteger ;
+            ns3:Total "41"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "4.4"^^xsd:float .
+
+<Indiana> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "5"^^xsd:positiveInteger ;
+            ns3:Linehaul "22"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "14"^^xsd:positiveInteger ;
+            ns3:Total "42"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.1"^^xsd:float .
+
+<Iowa> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "5"^^xsd:positiveInteger ;
+            ns3:Linehaul "6"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "3"^^xsd:positiveInteger ;
+            ns3:Total "15"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.8"^^xsd:float .
+
+<Kansas> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "4"^^xsd:positiveInteger ;
+            ns3:Linehaul "5"^^xsd:positiveInteger ;
+            ns3:Regional "3"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "2"^^xsd:positiveInteger ;
+            ns3:Total "14"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.9"^^xsd:float .
+
+<Kentucky> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "5"^^xsd:positiveInteger ;
+            ns3:Linehaul "7"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "0"^^xsd:positiveInteger ;
+            ns3:Total "13"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.8"^^xsd:float .
+
+<Louisiana> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "6"^^xsd:positiveInteger ;
+            ns3:Linehaul "8"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "3"^^xsd:positiveInteger ;
+            ns3:Total "17"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.6"^^xsd:float .
+
+<ME00002> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "44.199"^^xsd:float ;
+    ns1:Longitude "-69.241"^^xsd:float ;
+    ns1:State <Maine> ;
+    ns4:Freight "Sea"^^xsd:ENTITY ;
+    ns2:Minerals [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.04"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1984"^^xsd:date ;
+                    ns2:Reaserchers "Buckingham and Lemons (1984)"^^xsd:string ;
+                    ns2:Refference_Detail "Pages 8-10"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.45"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1984"^^xsd:date ;
+                    ns2:Reaserchers "Buckingham and Lemons (1984)"^^xsd:string ;
+                    ns2:Refference_Detail "Pages 8-10"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.91"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1984"^^xsd:date ;
+                    ns2:Reaserchers "Buckingham and Lemons (1984)"^^xsd:string ;
+                    ns2:Refference_Detail "Pages 8-10"^^xsd:str ] ] ;
+    foaf:givenName "Union" .
+
+<ME00003> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "44.175"^^xsd:float ;
+    ns1:Longitude "-69.256"^^xsd:float ;
+    ns1:State <Maine> ;
+    ns4:Freight "Sea"^^xsd:ENTITY ;
+    ns2:Minerals [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.12"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2982800"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1992"^^xsd:date ;
+                    ns2:Reaserchers "Giancola (1995)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 46"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.69"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2982800"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1992"^^xsd:date ;
+                    ns2:Reaserchers "Giancola (1995)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 46"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "1.49"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2982800"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1992"^^xsd:date ;
+                    ns2:Reaserchers "Giancola (1995)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 46"^^xsd:str ] ] ;
+    foaf:givenName "Warren" .
+
+<MI00001> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "46.747"^^xsd:float ;
+    ns1:Longitude "-87.889"^^xsd:float ;
+    ns1:State <Michigan> ;
+    ns4:Freight "Lake"^^xsd:ENTITY ;
+    ns2:Minerals [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.5"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1293000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.4"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2148000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 15-2, Table 15-1"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "1.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-77000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Resources Table"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "3.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1235000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Reserves Table"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.9"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1544000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 15-2, Table 15-1"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1544000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 15-2, Table 15-1"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "1.7"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-290000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1408000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Resources Table"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.3"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1235000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Reserves Table"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.2"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-44000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.9"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1198000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "3.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1544000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 15-2, Table 15-1"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.3"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1408000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Resources Table"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "3.7"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1544000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 15-2, Table 15-1"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1748000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Resources Table"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.3"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2146000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "10.6"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1544000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 15-2, Table 15-1"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.4"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1544000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 15-2, Table 15-1"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "4.2"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1293000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "2.2"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1748000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Resources Table"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "1.4"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-290000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.6"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1198000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.2"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1955000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Reserves Table"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "1.7"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1293000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "1.7"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1955000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Reserves Table"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "1.8"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1955000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Reserves Table"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "1.3"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1293000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.3"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-44000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.2"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1748000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Resources Table"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1955000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Reserves Table"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "6.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-290000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.2"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-290000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.7"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1129000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 15-2, Table 15-1"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.3"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-290000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "15.3"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1293000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.5"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-290000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "2.5"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1235000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Reserves Table"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.2"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2148000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 15-2, Table 15-1"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "1.2"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1544000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 15-2, Table 15-1"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "2.4"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1748000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Resources Table"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "2.8"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1408000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Resources Table"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.9"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-77000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Resources Table"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.5"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2146000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "3.4"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1408000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Resources Table"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1235000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Reserves Table"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.5"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1129000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 15-2, Table 15-1"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-77000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Lundin Mining (2018b)"^^xsd:string ;
+                    ns2:Refference_Detail "Mineral Resources Table"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "5.2"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1293000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1293000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2016"^^xsd:date ;
+                    ns2:Reaserchers "Clow and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-2, Table 14-1"^^xsd:str ] ] ;
+    foaf:givenName "Eagle" .
+
+<MN00002> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "47.62"^^xsd:float ;
+    ns1:Longitude "-91.97"^^xsd:float ;
+    ns1:State <Minnesota> ;
+    ns4:Freight "Lake"^^xsd:ENTITY ;
+    ns2:Minerals [ a "platinum"^^xsd:Name ;
+            ns2:Grade "65.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-649300000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 23, Table 1-2"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "72.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-508900000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 23, Table 1-2"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.084"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-254669000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 22, Table 1-1"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "0.93"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-508900000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 23, Table 1-2"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "33.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-649300000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 23, Table 1-2"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.01"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "923900000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2017"^^xsd:date ;
+                    ns2:Reaserchers "Slack and others (2017)"^^xsd:string ;
+                    ns2:Refference_Detail "Page F38, Table F1"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "39.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-254669000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 22, Table 1-1"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "71.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-649300000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 23, Table 1-2"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.24"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-508900000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 23, Table 1-2"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "1.06"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-254669000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 22, Table 1-1"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "234.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-508900000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 23, Table 1-2"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "66.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-508900000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 23, Table 1-2"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "0.91"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-649300000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 23, Table 1-2"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "221.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-649300000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 23, Table 1-2"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.294"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-254669000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 22, Table 1-1"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.07"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-508900000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 23, Table 1-2"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "37.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-508900000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 23, Table 1-2"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "74.42"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-254669000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 22, Table 1-1"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.24"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-649300000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 23, Table 1-2"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.074"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-649300000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 23, Table 1-2"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "268.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-254669000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 22, Table 1-1"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "80.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-254669000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Black and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 22, Table 1-1"^^xsd:str ] ] ;
+    foaf:givenName "NorthMet" .
+
+<MN00003> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "47.784"^^xsd:float ;
+    ns1:Longitude "-91.74"^^xsd:float ;
+    ns1:State <Minnesota> ;
+    ns4:Freight "Lake"^^xsd:ENTITY ;
+    ns2:Minerals [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.07"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-530600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-35, Table 14-16"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.52"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-99700000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-39, Table 14-20"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.43"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-32300000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-37, Table 14-18"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "1.43"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-32300000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-37, Table 14-18"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.515"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-99700000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-39, Table 14-20"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "97.6"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-530600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-35, Table 14-16"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.347"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1130000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-35, Table 14-16"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.16"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-480000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-40, Table 14-21"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "2.14"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1130000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-35, Table 14-16"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.48"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-102600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-37, Table 14-18"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.43"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-480000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-40, Table 14-21"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.048"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-102600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-37, Table 14-18"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.083"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1130000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-35, Table 14-16"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.18"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-239000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-39, Table 14-20"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "108.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-102600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-37, Table 14-18"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "1.59"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-102600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-37, Table 14-18"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.19"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1130000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-35, Table 14-16"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.185"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-102600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-37, Table 14-18"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.16"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-99700000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-39, Table 14-20"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.17"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-102600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-37, Table 14-18"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.065"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-32300000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-37, Table 14-18"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.235"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-99700000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-39, Table 14-20"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.08"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-102600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-37, Table 14-18"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.15"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-239000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-39, Table 14-20"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.37"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-239000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-39, Table 14-20"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.153"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1130000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-35, Table 14-16"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.115"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-99700000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-39, Table 14-20"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.138"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-530600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-35, Table 14-16"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.314"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-530600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-35, Table 14-16"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "104.5"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1130000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-35, Table 14-16"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "1.81"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-530600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-35, Table 14-16"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.59"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1130000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-35, Table 14-16"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.15"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-32300000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-37, Table 14-18"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.16"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-530600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-35, Table 14-16"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.157"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-32300000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-37, Table 14-18"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.49"^^xsd:float ;
+            ns2:Last_Updt "2018-07-17T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-530600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-35, Table 14-16"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.041"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-32300000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-37, Table 14-18"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "102.2"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-32300000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-37, Table 14-18"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.087"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-239000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-39, Table 14-20"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.46"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-239000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2014"^^xsd:date ;
+                    ns2:Reaserchers "Barber and others (2014)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 14-39, Table 14-20"^^xsd:str ] ] ;
+    foaf:givenName "Birch Lake, Maturi, Spruce Road, Teck’s Mesaba (Babbit)" .
+
+<MN00008> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "46.685"^^xsd:float ;
+    ns1:Longitude "-93.116"^^xsd:float ;
+    ns1:State <Minnesota> ;
+    ns4:Freight "Lake"^^xsd:ENTITY ;
+    ns2:Minerals [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.23"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2705000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.2"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3639000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.13"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2705000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.14"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1107000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "5.86"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-570000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "1.83"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3639000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.26"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3639000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.55"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1107000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.12"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1107000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "palladium"^^xsd:Name ;
+            ns2:Grade "0.51"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-570000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.74"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2705000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.68"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-570000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.22"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1107000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.9"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1107000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.95"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2705000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "platinum"^^xsd:Name ;
+            ns2:Grade "0.42"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3639000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.05"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3639000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.16"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2705000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.25"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-570000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.12"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-570000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.03"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2705000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.99"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3639000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.03"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1107000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "2.46"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-570000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2018"^^xsd:date ;
+                    ns2:Reaserchers "Fletcher and others (2018)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 187, Table 14-18"^^xsd:str ] ] ;
+    foaf:givenName "Tamarack" .
+
+<MO00001> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "37.573"^^xsd:float ;
+    ns1:Longitude "-90.217"^^xsd:float ;
+    ns1:State <Missouri> ;
+    ns4:Freight "Lake"^^xsd:ENTITY ;
+    foaf:givenName "Fredericktown District" .
+
+<MO00002> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "37.608"^^xsd:float ;
+    ns1:Longitude "-90.142"^^xsd:float ;
+    ns1:State <Missouri> ;
+    ns4:Freight "Lake"^^xsd:ENTITY ;
+    ns2:Minerals [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.22"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9349040"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Knox and Amos (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 12"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.18"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9349040"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Knox and Amos (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 12"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.16"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9349040"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Knox and Amos (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 12"^^xsd:str ] ],
+        [ a "lead"^^xsd:Name ;
+            ns2:Grade "2.35"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9349040"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Knox and Amos (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 12"^^xsd:str ] ],
+        [ a "zinc"^^xsd:Name ;
+            ns2:Grade "1.22"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9349040"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Knox and Amos (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 12"^^xsd:str ] ] ;
+    foaf:givenName "Higdon" .
+
+<MO00013> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "37.546"^^xsd:float ;
+    ns1:Longitude "-90.276"^^xsd:float ;
+    ns1:State <Missouri> ;
+    ns4:Freight "Lake"^^xsd:ENTITY ;
+    ns2:Minerals [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.16"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1957"^^xsd:date ;
+                    ns2:Reaserchers "Kline and others (1961)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 6"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.24"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1500000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1957"^^xsd:date ;
+                    ns2:Reaserchers "Kline and others (1961)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 6"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.4"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1957"^^xsd:date ;
+                    ns2:Reaserchers "Kline and others (1961)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 6"^^xsd:str ] ],
+        [ a "lead"^^xsd:Name ;
+            ns2:Grade "1.75"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1957"^^xsd:date ;
+                    ns2:Reaserchers "Kline and others (1961)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 6"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.18"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1500000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1957"^^xsd:date ;
+                    ns2:Reaserchers "Kline and others (1961)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 6"^^xsd:str ] ],
+        [ a "lead"^^xsd:Name ;
+            ns2:Grade "2.3"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1500000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1957"^^xsd:date ;
+                    ns2:Reaserchers "Kline and others (1961)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 6"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.35"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "12081000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2002"^^xsd:date ;
+                    ns2:Reaserchers "US Cobalt Inc. (2003)"^^xsd:string ;
+                    ns2:Refference_Detail "<Null>"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.6"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1500000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1957"^^xsd:date ;
+                    ns2:Reaserchers "Kline and others (1961)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 6"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.2"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-3000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1957"^^xsd:date ;
+                    ns2:Reaserchers "Kline and others (1961)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 6"^^xsd:str ] ] ;
+    foaf:givenName "Madison" .
+
+<MO00014> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "37.666"^^xsd:float ;
+    ns1:Longitude "-91.17"^^xsd:float ;
+    ns1:State <Missouri> ;
+    ns4:Freight "Lake"^^xsd:ENTITY ;
+    ns2:Minerals [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.83"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-40000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1974"^^xsd:date ;
+                    ns2:Reaserchers "Long and others (1998)"^^xsd:string ;
+                    ns2:Refference_Detail "<Null>"^^xsd:str ] ],
+        [ a "iron"^^xsd:Name ;
+            ns2:Grade "18.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-40000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1974"^^xsd:date ;
+                    ns2:Reaserchers "Long and others (1998)"^^xsd:string ;
+                    ns2:Refference_Detail "<Null>"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.035"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-40000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1974"^^xsd:date ;
+                    ns2:Reaserchers "Long and others (1998)"^^xsd:string ;
+                    ns2:Refference_Detail "<Null>"^^xsd:str ] ] ;
+    foaf:givenName "Boss-Bixby" .
+
+<MT00002> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "46.775"^^xsd:float ;
+    ns1:Longitude "-110.894"^^xsd:float ;
+    ns1:State <Montana> ;
+    ns4:Freight "Not feasible"^^xsd:ENTITY ;
+    ns2:Minerals [ a "copper"^^xsd:Name ;
+            ns2:Grade "6.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "2000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1988"^^xsd:date ;
+                    ns2:Reaserchers "Cominco Resources International Ltd. (1989)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 11"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "2.83"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9179000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-8, Table 1.2"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "4.5"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2387000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-9, Table 1.4"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.03"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2387000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-9, Table 1.4"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "2.5"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-5000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1988"^^xsd:date ;
+                    ns2:Reaserchers "Cominco Resources International Ltd. (1989)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 11"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.12"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9179000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-8, Table 1.2"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "2.94"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-4099000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-10, Table 1.6"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "2.52"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1255000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-9, Table 1.3"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "5.33"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-205000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-9, Table 1.5"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.03"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-205000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-9, Table 1.5"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-5000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1988"^^xsd:date ;
+                    ns2:Reaserchers "Cominco Resources International Ltd. (1989)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 11"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "6.4"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2387000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-9, Table 1.4"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1255000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-9, Table 1.3"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.008"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9179000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-8, Table 1.2"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "15.2"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1255000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-9, Table 1.3"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "4.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-205000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-9, Table 1.5"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.006"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-4099000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-10, Table 1.6"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "2.58"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-801000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-10, Table 1.7"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.008"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-801000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-10, Table 1.7"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.008"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1255000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-9, Table 1.3"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-801000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-10, Table 1.7"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-4099000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-10, Table 1.6"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.304"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2387000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-9, Table 1.4"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "15.7"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9179000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-8, Table 1.2"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "14.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-801000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-10, Table 1.7"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "15.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-4099000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-10, Table 1.6"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.207"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-205000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2013"^^xsd:date ;
+                    ns2:Reaserchers "Winckers and others (2013)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 1-9, Table 1.5"^^xsd:str ] ] ;
+    foaf:givenName "Black Butte" .
+
+<MT00029> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "46.836"^^xsd:float ;
+    ns1:Longitude "-111.149"^^xsd:float ;
+    ns1:State <Montana> ;
+    ns4:Freight "Not feasible"^^xsd:ENTITY ;
+    foaf:givenName "Smith River District" .
+
+<Maryland> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "4"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "2"^^xsd:positiveInteger ;
+            ns3:Total "9"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.7"^^xsd:float .
+
+<Massachusetts> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "1"^^xsd:positiveInteger ;
+            ns3:Linehaul "4"^^xsd:positiveInteger ;
+            ns3:Regional "3"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "3"^^xsd:positiveInteger ;
+            ns3:Total "11"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.5"^^xsd:float .
+
+<Mississippi> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "5"^^xsd:positiveInteger ;
+            ns3:Linehaul "17"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "4"^^xsd:positiveInteger ;
+            ns3:Total "27"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.5"^^xsd:float .
+
+<NC00001> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "35.342"^^xsd:float ;
+    ns1:Longitude "-83.213"^^xsd:float ;
+    ns1:State <North_Carolina> ;
+    ns4:Freight "Waterway"^^xsd:ENTITY ;
+    ns2:Minerals [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.16"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1968"^^xsd:date ;
+                    ns2:Reaserchers "U.S. Geological Survey and U.S. Bureau of Mines (1968)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 375"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "1.0"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1968"^^xsd:date ;
+                    ns2:Reaserchers "U.S. Geological Survey and U.S. Bureau of Mines (1968)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 375"^^xsd:str ] ] ;
+    foaf:givenName "Webster District" .
+
+<NM00041> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "32.725"^^xsd:float ;
+    ns1:Longitude "-108.501"^^xsd:float ;
+    ns1:State <New_Mexico> ;
+    ns4:Freight "Not feasible"^^xsd:ENTITY ;
+    ns2:Minerals [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.15"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "4000000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1965"^^xsd:date ;
+                    ns2:Reaserchers "Weber (1965); Vhay and others (1973)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 207"^^xsd:str ] ] ;
+    foaf:givenName "Black Hawk" .
+
+<NM00042> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "32.725"^^xsd:float ;
+    ns1:Longitude "-108.501"^^xsd:float ;
+    ns1:State <New_Mexico> ;
+    ns4:Freight "Not feasible"^^xsd:ENTITY ;
+    foaf:givenName "Black Hawk District" .
+
+<Nebraska> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "3"^^xsd:positiveInteger ;
+            ns3:Linehaul "4"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "3"^^xsd:positiveInteger ;
+            ns3:Total "11"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.1"^^xsd:float .
+
+<Nevada> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "0"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "0"^^xsd:positiveInteger ;
+            ns3:Total "2"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "5.5"^^xsd:float .
+
+<New_Hampshire> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "0"^^xsd:positiveInteger ;
+            ns3:Linehaul "7"^^xsd:positiveInteger ;
+            ns3:Regional "2"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "0"^^xsd:positiveInteger ;
+            ns3:Total "9"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.4"^^xsd:float .
+
+<New_Jersey> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "3"^^xsd:positiveInteger ;
+            ns3:Linehaul "7"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "7"^^xsd:positiveInteger ;
+            ns3:Total "18"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.5"^^xsd:float .
+
+<New_York> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "1"^^xsd:positiveInteger ;
+            ns3:Class_I "3"^^xsd:positiveInteger ;
+            ns3:Linehaul "22"^^xsd:positiveInteger ;
+            ns3:Regional "4"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "7"^^xsd:positiveInteger ;
+            ns3:Total "37"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "4.1"^^xsd:float .
+
+<North_Dakota> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "4"^^xsd:positiveInteger ;
+            ns3:Regional "2"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "0"^^xsd:positiveInteger ;
+            ns3:Total "8"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.1"^^xsd:float .
+
+<OR00001> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "41.999"^^xsd:float ;
+    ns1:Longitude "-123.758"^^xsd:float ;
+    ns1:State <Oregon> ;
+    ns4:Freight "Sea"^^xsd:ENTITY ;
+    ns2:Minerals [ a "silver"^^xsd:Name ;
+            ns2:Grade "0.59"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2064000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2010"^^xsd:date ;
+                    ns2:Reaserchers "Marek and others (2010)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 17-19, Table 17-4"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "1.18"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2422000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2010"^^xsd:date ;
+                    ns2:Reaserchers "Marek and others (2010)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 17-19, Table 17-4"^^xsd:str ] ],
+        [ a "zinc"^^xsd:Name ;
+            ns2:Grade "2.48"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2422000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2010"^^xsd:date ;
+                    ns2:Reaserchers "Marek and others (2010)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 17-19, Table 17-4"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.086"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2422000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2010"^^xsd:date ;
+                    ns2:Reaserchers "Marek and others (2010)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 17-19, Table 17-4"^^xsd:str ] ],
+        [ a "zinc"^^xsd:Name ;
+            ns2:Grade "2.6"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2064000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2010"^^xsd:date ;
+                    ns2:Reaserchers "Marek and others (2010)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 17-19, Table 17-4"^^xsd:str ] ],
+        [ a "copper"^^xsd:Name ;
+            ns2:Grade "0.94"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2064000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2010"^^xsd:date ;
+                    ns2:Reaserchers "Marek and others (2010)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 17-19, Table 17-4"^^xsd:str ] ],
+        [ a "silver"^^xsd:Name ;
+            ns2:Grade "0.3"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2422000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2010"^^xsd:date ;
+                    ns2:Reaserchers "Marek and others (2010)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 17-19, Table 17-4"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.036"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2064000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2010"^^xsd:date ;
+                    ns2:Reaserchers "Marek and others (2010)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 17-19, Table 17-4"^^xsd:str ] ],
+        [ a "gold"^^xsd:Name ;
+            ns2:Grade "0.084"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2064000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2010"^^xsd:date ;
+                    ns2:Reaserchers "Marek and others (2010)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 17-19, Table 17-4"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.046"^^xsd:float ;
+            ns2:Last_Updt "2018-07-18T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2422000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "2010"^^xsd:date ;
+                    ns2:Reaserchers "Marek and others (2010)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 17-19, Table 17-4"^^xsd:str ] ] ;
+    foaf:givenName "Turner" .
+
+<OR00002> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "42.258"^^xsd:float ;
+    ns1:Longitude "-123.663"^^xsd:float ;
+    ns1:State <Oregon> ;
+    ns4:Freight "Sea"^^xsd:ENTITY ;
+    ns2:Minerals [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.04"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9044000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1975"^^xsd:date ;
+                    ns2:Reaserchers "Ramp (1975)"^^xsd:string ;
+                    ns2:Refference_Detail "Pages 4 and 5"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.56"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9044000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1975"^^xsd:date ;
+                    ns2:Reaserchers "Ramp (1975)"^^xsd:string ;
+                    ns2:Refference_Detail "Pages 4 and 5"^^xsd:str ] ],
+        [ a "chromium trioxide"^^xsd:Name ;
+            ns2:Grade "0.93"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-9044000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1975"^^xsd:date ;
+                    ns2:Reaserchers "Ramp (1975)"^^xsd:string ;
+                    ns2:Refference_Detail "Pages 4 and 5"^^xsd:str ] ] ;
+    foaf:givenName "Eight Dollar Mountain" .
+
+<OR00005> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "42.963"^^xsd:float ;
+    ns1:Longitude "-123.437"^^xsd:float ;
+    ns1:State <Oregon> ;
+    ns4:Freight "Sea"^^xsd:ENTITY ;
+    ns2:Minerals [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.05"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "16000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1973"^^xsd:date ;
+                    ns2:Reaserchers "Vhay and others (1973)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 148"^^xsd:str ] ] ;
+    foaf:givenName "Nickel Mountain" .
+
+<Ohio> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "4"^^xsd:positiveInteger ;
+            ns3:Linehaul "14"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "16"^^xsd:positiveInteger ;
+            ns3:Total "35"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.8"^^xsd:float .
+
+<Oklahoma> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "3"^^xsd:positiveInteger ;
+            ns3:Linehaul "12"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "4"^^xsd:positiveInteger ;
+            ns3:Total "19"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.0"^^xsd:float .
+
+<PA00001> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "40.267"^^xsd:float ;
+    ns1:Longitude "-76.411"^^xsd:float ;
+    ns1:State <Pennsylvania> ;
+    ns4:Freight "Sea"^^xsd:ENTITY ;
+    foaf:givenName "Cornwall" .
+
+<PR00001> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "18.136267"^^xsd:float ;
+    ns1:Longitude "-67.159816"^^xsd:float ;
+    ns1:State <Puerto_Rico> ;
+    ns2:Minerals [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.88"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-46800000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "chromium"^^xsd:Name ;
+            ns2:Grade "0.51"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-46800000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.08"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-46800000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "iron"^^xsd:Name ;
+            ns2:Grade "20.54"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-46800000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ] ;
+    foaf:givenName "Guanajibo" .
+
+<PR00002> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "18.163555"^^xsd:float ;
+    ns1:Longitude "-67.178359"^^xsd:float ;
+    ns1:State <Puerto_Rico> ;
+    ns2:Minerals [ a "nickel"^^xsd:Name ;
+            ns2:Grade "1.03"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2100000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "iron"^^xsd:Name ;
+            ns2:Grade "19.03"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2100000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.07"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2100000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "chromium"^^xsd:Name ;
+            ns2:Grade "0.63"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-2100000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ] ;
+    foaf:givenName "Punta Guanajibo" .
+
+<PR00003> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "18.18632"^^xsd:float ;
+    ns1:Longitude "-67.109461"^^xsd:float ;
+    ns1:State <Puerto_Rico> ;
+    ns2:Minerals [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.81"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-25000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "iron"^^xsd:Name ;
+            ns2:Grade "28.39"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-25000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.12"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-25000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "chromium"^^xsd:Name ;
+            ns2:Grade "0.75"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-25000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ] ;
+    foaf:givenName "Las Mesas" .
+
+<PR00004> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "18.167927"^^xsd:float ;
+    ns1:Longitude "-67.030763"^^xsd:float ;
+    ns1:State <Puerto_Rico> ;
+    ns2:Minerals [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.06"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1100000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.71"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1100000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "chromium"^^xsd:Name ;
+            ns2:Grade "0.34"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1100000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "iron"^^xsd:Name ;
+            ns2:Grade "12.47"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-1100000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "iron"^^xsd:Name ;
+            ns2:Grade "20.76"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-4800000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.07"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-4800000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "chromium"^^xsd:Name ;
+            ns2:Grade "0.58"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-4800000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.85"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-4800000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ] ;
+    foaf:givenName "Rosario Southeast group" .
+
+<PR00005> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "18.152549"^^xsd:float ;
+    ns1:Longitude "-66.985986"^^xsd:float ;
+    ns1:State <Puerto_Rico> ;
+    ns2:Minerals [ a "nickel"^^xsd:Name ;
+            ns2:Grade "0.98"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-5000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "iron"^^xsd:Name ;
+            ns2:Grade "22.05"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-5000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "iron"^^xsd:Name ;
+            ns2:Grade "29.45"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-5600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "chromium"^^xsd:Name ;
+            ns2:Grade "0.59"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-5000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "nickel"^^xsd:Name ;
+            ns2:Grade "1.08"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-5600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.1"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-5000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "chromium"^^xsd:Name ;
+            ns2:Grade "0.67"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-5600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ],
+        [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.11"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "-5600000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1959"^^xsd:date ;
+                    ns2:Reaserchers "Heidenreich and Reynolds (1959)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 31, Table 2"^^xsd:str ] ] ;
+    foaf:givenName "Maricao Southwest group" .
+
+<Rhode_Island> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "0"^^xsd:positiveInteger ;
+            ns3:Linehaul "0"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "0"^^xsd:positiveInteger ;
+            ns3:Total "1"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.1"^^xsd:float .
+
+<South_Carolina> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "8"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "4"^^xsd:positiveInteger ;
+            ns3:Total "14"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.2"^^xsd:float .
+
+<South_Dakota> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "4"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "2"^^xsd:positiveInteger ;
+            ns3:Total "9"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "1.9"^^xsd:float .
+
+<TN00001> a "Quarry"^^xsd:Name ;
+    ns1:Latitude "35.049"^^xsd:float ;
+    ns1:Longitude "-84.383"^^xsd:float ;
+    ns1:State <Tennessee> ;
+    ns4:Freight "Waterway"^^xsd:ENTITY ;
+    ns2:Minerals [ a "cobalt"^^xsd:Name ;
+            ns2:Grade "0.5"^^xsd:float ;
+            ns2:Last_Updt "2018-07-19T00:00:00"^^xsd:date ;
+            ns2:Material_Amount "8000000000"^^xsd:numeric ;
+            ns2:Research [ ns2:Date "1973"^^xsd:date ;
+                    ns2:Reaserchers "Vhay and others (1973)"^^xsd:string ;
+                    ns2:Refference_Detail "Page 150"^^xsd:str ] ] ;
+    foaf:givenName "Ducktown District" .
+
+<Texas> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "3"^^xsd:positiveInteger ;
+            ns3:Linehaul "22"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "22"^^xsd:positiveInteger ;
+            ns3:Total "47"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "4.0"^^xsd:float .
+
+<United_States,_total> ns3:Railroad [ ns3:Canadian "1"^^xsd:positiveInteger ;
+            ns3:Class_I "7"^^xsd:positiveInteger ;
+            ns3:Linehaul "343"^^xsd:positiveInteger ;
+            ns3:Regional "21"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "194"^^xsd:positiveInteger ;
+            ns3:Total "566"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] .
+
+<Utah> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "3"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "3"^^xsd:positiveInteger ;
+            ns3:Total "8"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.4"^^xsd:float .
+
+<Vermont> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "0"^^xsd:positiveInteger ;
+            ns3:Linehaul "5"^^xsd:positiveInteger ;
+            ns3:Regional "3"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "0"^^xsd:positiveInteger ;
+            ns3:Total "8"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.7"^^xsd:float .
+
+<Virginia> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "6"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "1"^^xsd:positiveInteger ;
+            ns3:Total "9"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.2"^^xsd:float .
+
+<Washington> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "14"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "6"^^xsd:positiveInteger ;
+            ns3:Total "23"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "4.5"^^xsd:float .
+
+<West_Virginia> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "5"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "1"^^xsd:positiveInteger ;
+            ns3:Total "9"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.4"^^xsd:float .
+
+<Wisconsin> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "4"^^xsd:positiveInteger ;
+            ns3:Linehaul "3"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "0"^^xsd:positiveInteger ;
+            ns3:Total "8"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.5"^^xsd:float .
+
+<Wyoming> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "3"^^xsd:positiveInteger ;
+            ns3:Linehaul "0"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "1"^^xsd:positiveInteger ;
+            ns3:Total "4"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.7"^^xsd:float .
+
+<Michigan> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "1"^^xsd:positiveInteger ;
+            ns3:Class_I "4"^^xsd:positiveInteger ;
+            ns3:Linehaul "14"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "7"^^xsd:positiveInteger ;
+            ns3:Total "26"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "4.1"^^xsd:float .
+
+<North_Carolina> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "13"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "7"^^xsd:positiveInteger ;
+            ns3:Total "22"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.5"^^xsd:float .
+
+<Pennsylvania> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "4"^^xsd:positiveInteger ;
+            ns3:Linehaul "27"^^xsd:positiveInteger ;
+            ns3:Regional "3"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "21"^^xsd:positiveInteger ;
+            ns3:Total "55"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "4.2"^^xsd:float .
+
+<Tennessee> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "6"^^xsd:positiveInteger ;
+            ns3:Linehaul "14"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "5"^^xsd:positiveInteger ;
+            ns3:Total "25"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.4"^^xsd:float .
+
+<California> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "15"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "8"^^xsd:positiveInteger ;
+            ns3:Total "25"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "4.4"^^xsd:float .
+
+<Maine> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "0"^^xsd:positiveInteger ;
+            ns3:Linehaul "4"^^xsd:positiveInteger ;
+            ns3:Regional "2"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "1"^^xsd:positiveInteger ;
+            ns3:Total "7"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.6"^^xsd:float .
+
+<Montana> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "4"^^xsd:positiveInteger ;
+            ns3:Regional "2"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "0"^^xsd:positiveInteger ;
+            ns3:Total "8"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.3"^^xsd:float .
+
+<New_Mexico> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "2"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "1"^^xsd:positiveInteger ;
+            ns3:Total "5"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.5"^^xsd:float .
+
+<Minnesota> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "1"^^xsd:positiveInteger ;
+            ns3:Class_I "4"^^xsd:positiveInteger ;
+            ns3:Linehaul "9"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "3"^^xsd:positiveInteger ;
+            ns3:Total "18"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.8"^^xsd:float .
+
+<Oregon> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "10"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "4"^^xsd:positiveInteger ;
+            ns3:Total "17"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "4.4"^^xsd:float .
+
+<Missouri> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "6"^^xsd:positiveInteger ;
+            ns3:Linehaul "4"^^xsd:positiveInteger ;
+            ns3:Regional "0"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "7"^^xsd:positiveInteger ;
+            ns3:Total "17"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.5"^^xsd:float .
+
+<Alaska> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "0"^^xsd:positiveInteger ;
+            ns3:Linehaul "0"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "0"^^xsd:positiveInteger ;
+            ns3:Total "1"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "3.7"^^xsd:float .
+
+<Idaho> a "State"^^xsd:Name ;
+    ns3:Railroad [ ns3:Canadian "0"^^xsd:positiveInteger ;
+            ns3:Class_I "2"^^xsd:positiveInteger ;
+            ns3:Linehaul "7"^^xsd:positiveInteger ;
+            ns3:Regional "1"^^xsd:positiveInteger ;
+            ns3:Switching_and_terminal "2"^^xsd:positiveInteger ;
+            ns3:Total "12"^^xsd:positiveInteger ;
+            "Source"^^xsd:string "http://pubs.aar.org/pubstores/"^^xsd:string ] ;
+    ns4:Unemployment_rate "2.6"^^xsd:float .
+
